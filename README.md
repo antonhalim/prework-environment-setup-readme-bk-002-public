@@ -42,7 +42,7 @@ clang: error: no input files
 
 ### Homebrew
 
-Homebrew(http://brew.sh/.). is an awesome package manager, and makes downloading lots of software really easy. Download Homebrew by entering:
+[Homebrew](http://brew.sh/.) is an awesome package manager, and makes downloading lots of software really easy. Download Homebrew by entering:
 
 ```
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
