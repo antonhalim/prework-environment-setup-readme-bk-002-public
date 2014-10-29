@@ -28,9 +28,11 @@ We're going to spend more time on this and in more depth when the semester begin
 
 Make sure you are using OSX 10.9 Mavericks. To check, click on the  in the menu bar and select "About This Mac" The version should be 10.9.5 or greater. If your version of OSX is below 10.9.5, update your Mac through the Mac App Store.
 
-### XCode / Command Line Tools
+### XCode / Command Line Tools / GCC
 
 Download the Command Line Tools from Apple's developer website, or if you don't have an Apple developer account, you can download the command line tools [here](http://flatiron-school.s3.amazonaws.com/software/command_line_tools_os_x_mavericks_for_xcode__late_october_2013.dmg).
+
+Most OS level programs are written in C or C++. These programs must be compiled and interpreted by a C-level compiler. The most common compiler for POSIX systems is GCC, or the GNU Compiler Collection. On OS 10.8 and below (anything before Mavericks), GCC is part of the command line tools.
 
 To test and see if you installed command line tools correctly, type `gcc` into terminal.
 
@@ -76,15 +78,17 @@ Next comes setting up our ruby version manager, which will handle ruby versions 
 
 That will install the latest stable version of RVM along with the latest stable version of ruby 2.1.2. Then type `rvm use 2.1.2 --default` to make that your default ruby. Open a new tab and `try ruby -v` and see if it matches the installed version of ruby. You can install another version of ruby with `rvm install 2.1.1` and see all installable rubies with `rvm list known`.
 
-### RSpec
+### Ironboard Gem
 
-[RSpec](https://relishapp.com/rspec) is a popular testing framework in Ruby. We use RSpec to test our code to make sure its doing what we want it to do.
+Now that we have RVM installed, let's install our first gem.
 
-At Flatiron, your assignments are test-driven, meaning that you'll have to pass RSpec tests to complete labs. For the prework there are a few assignments that use RSpec testing, so we need to download it. It's packaged as a gem, so to install it, type in your Terminal:
+`gem install ironboard`
 
-`gem install rspec`
+The ironboard gem will allow us to run the tests for challenges and labs. It's based off of [RSpec](https://www.relishapp.com/rspec), a popular testing framework in Ruby, but it does a bit more like help track your progress on labs.
 
-During assignments, when you want to run the tests to see if you're passing the tests: run `rspec`.
+Go ahead and install RSpec too: `gem install rspec`
+
+To run the tests for challenges and labs, you'll type `ironboard` into your command line within the root directory of the challenge/lab.
 
 ### Sublime Text
 
