@@ -8,9 +8,7 @@ You'll find a few different types of assignments here in Ironboard in the prewor
 
 ### Accounts
 
-To complete these lessons, you will need [Treehouse](http://teamtreehouse.com/)
-and [CodeSchool](http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==)
-accounts. 
+To complete these lessons, you will need [Treehouse](http://teamtreehouse.com/) and [CodeSchool](http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==) accounts. 
 
 We will provide you with an account to treehouse and codeschool, feel free to use your own to get started, but we cover those costs for the duration of the prework and semester.
 
@@ -72,7 +70,7 @@ Once the download is complete, you'll want to open a new terminal tab, and reent
 
 ### RVM
 
-Next comes setting up our ruby version manager, which will handle ruby versions and gems, which are packages of code we can use in our programs. OS X ships with an old version of ruby so we want a more recent one. Read about RVM and then install [RVM](http://rvm.io/) by typing this into your Terminal:
+Next comes setting up our ruby version manager, which will handle ruby versions and gems, which are packages of code we can use in our programs. OS X ships with an old version of ruby so we want a more recent one. Watch this quick [screencast](http://screencasts.org/episodes/how-to-use-rvm) on RVM, then install [RVM](http://rvm.io/) by typing this into your Terminal:
 
 `\curl -L https://get.rvm.io | bash -s stable --ruby=2.1.2`
 
