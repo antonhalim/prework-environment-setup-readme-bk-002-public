@@ -76,17 +76,23 @@ Next comes setting up our ruby version manager, which will handle ruby versions 
 
 That will install the latest stable version of RVM along with the latest stable version of ruby 2.1.2. Then type `rvm use 2.1.2 --default` to make that your default ruby. Open a new tab and `try ruby -v` and see if it matches the installed version of ruby. You can install another version of ruby with `rvm install 2.1.1` and see all installable rubies with `rvm list known`.
 
-### Ironboard Gem
+### rspec-ironboard Gem
 
-Now that we have RVM installed, let's install our first gem.
+Now that we have RVM and XCode installed, let's install our first gem.
 
-`gem install ironboard`
+This gem isn't open-sourced, so we won't be downloading it from [RubyGems.org](https://rubygems.org/), which is where most gems are hosted. Before we download it, we will need to specify where it's coming from, which is a private server at Flatiron. Type this into your command line;
+
+`gem sources -a http://flatiron:33west26@gems.flatironschool.com/`
+
+Next, download the gem:
+
+`gem install rspec-ironboard`
 
 The ironboard gem will allow us to run the tests for challenges and labs. It's based off of [RSpec](https://www.relishapp.com/rspec), a popular testing framework in Ruby, but it does a bit more like help track your progress on labs.
 
 Go ahead and install RSpec too: `gem install rspec`
 
-To run the tests for challenges and labs, you'll type `ironboard` into your command line within the root directory of the challenge/lab.
+Normally when we run our tests, we would type `rspec`, but to run the tests for challenges and labs, you'll type `ironboard` into your command line instead, within the root directory of the challenge/lab.
 
 ### Sublime Text
 
