@@ -96,4 +96,4 @@ Normally when we run our tests, we would type `rspec`, but to run the tests for 
 
 ### Sublime Text
 
-Sublime Text 2 is our favorite text editor for writing code. You can download it [here](http://www.sublimetext.com/2). You want to make sure you select the OSX version. You'll want to make sure that Sublime Text 2 is in the Applications directory on your computer.
+Sublime Text 3 is our favorite text editor for writing code. You can download it [here](http://www.sublimetext.com/3). You want to make sure you select the OSX version. You'll want to make sure that Sublime Text 3 is in the Applications directory on your computer.
