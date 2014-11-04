@@ -24,13 +24,13 @@ We're going to spend more time on this and in more depth when the semester begin
 
 ### Operating System
 
-Make sure you are using OSX 10.9 Mavericks. To check, click on the  in the menu bar and select "About This Mac" The version should be 10.9.5 or greater. If your version of OSX is below 10.9.5, update your Mac through the Mac App Store.
+Make sure you are using OSX 10.10 Yosemite. To check, click on the  in the menu bar and select "About This Mac" The version should be 10.10 or greater. If your version of OSX is below 10.10, update your Mac through the Mac App Store.
 
 ### XCode / Command Line Tools / GCC
 
-Download the Command Line Tools from Apple's developer website, or if you don't have an Apple developer account, you can download the command line tools [here](http://flatiron-school.s3.amazonaws.com/software/command_line_tools_os_x_mavericks_for_xcode__late_october_2013.dmg).
+Download XCode from the Mac App Store. Once XCode is downloaded, open it and follow any instructions. You should now have the apple commandline tools installed.
 
-Most OS level programs are written in C or C++. These programs must be compiled and interpreted by a C-level compiler. The most common compiler for POSIX systems is GCC, or the GNU Compiler Collection. On OS 10.8 and below (anything before Mavericks), GCC is part of the command line tools.
+Most OS level programs are written in C or C++. These programs must be compiled and interpreted by a C-level compiler. The most common compiler for [POSIX](http://en.wikipedia.org/wiki/POSIX) systems is [GCC](http://en.wikipedia.org/wiki/GNU_Compiler_Collection), or the GNU Compiler Collection.
 
 To test and see if you installed command line tools correctly, type `gcc` into terminal.
 
@@ -52,7 +52,7 @@ Once downloading is complete, you'll want to enter `brew doctor` to make sure yo
 
 ### Git
 
-We're going to be going over git in way more depth later, but for now know that git is a free and open source distributed version control system.
+We're going to be going over git in way more depth later, but for now, know that git is a free and open source distributed version control system. Version control systems are used to manage saving colaborating on software. 
 
 Your computer should ship with an earlier version of git.
 
@@ -62,7 +62,7 @@ Open up Terminal, and type:
 
 You should see an output like this:
 
-`git version 1.9.1`
+`git version 1.9.3`
 
 To update the version, enter `brew install git`.
 
@@ -72,11 +72,11 @@ Once the download is complete, you'll want to open a new terminal tab, and reent
 
 Next comes setting up our ruby version manager, which will handle ruby versions and gems, which are packages of code we can use in our programs. OS X ships with an old version of ruby so we want a more recent one. Watch this quick [screencast](http://screencasts.org/episodes/how-to-use-rvm) on RVM, then install [RVM](http://rvm.io/) by typing this into your Terminal:
 
-`\curl -L https://get.rvm.io | bash -s stable --ruby=2.1.2`
+`\curl -L https://get.rvm.io | bash -s stable --ruby=2.1.4`
 
-That will install the latest stable version of RVM along with the latest stable version of ruby 2.1.2. Then type `rvm use 2.1.2 --default` to make that your default ruby. Open a new tab and `try ruby -v` and see if it matches the installed version of ruby. You can install another version of ruby with `rvm install 2.1.1` and see all installable rubies with `rvm list known`.
+That will install the latest stable version of RVM along with the latest stable version of ruby 2.1.4. Then type `rvm use 2.1.4 --default` to make that your default ruby. Open a new tab and `try ruby -v` and see if it matches the installed version of ruby. You can install another version of ruby with `rvm install 2.1.3` and see all installable rubies with `rvm list known`.
 
-### rspec-ironboard Gem
+### The Ironboard Gem
 
 Now that we have RVM and XCode installed, let's install our first gem.
 
@@ -86,7 +86,7 @@ This gem isn't open-sourced, so we won't be downloading it from [RubyGems.org](h
 
 Next, download the gem:
 
-`gem install rspec-ironboard`
+`gem install ironboard`
 
 The ironboard gem will allow us to run the tests for challenges and labs. It's based off of [RSpec](https://www.relishapp.com/rspec), a popular testing framework in Ruby, but it does a bit more like help track your progress on labs.
 
