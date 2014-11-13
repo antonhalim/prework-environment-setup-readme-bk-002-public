@@ -28,7 +28,7 @@ Make sure you are using OSX 10.10 Yosemite. To check, click on the  in the me
 
 ### Xcode / Command Line Tools / GCC
 
-Download Xcode from the Mac App Store. If you already have Xcode installed, make sure there are no updates available in the Mac App Store. Once XCode is downloaded and up to date, open it and follow any instructions. You should now have the apple commandline tools installed. **Make sure you open Xcode. You need to accept apples terms and conditions before doing anytihng else**
+Download Xcode from the Mac App Store. If you already have Xcode installed, make sure there are no updates available in the Mac App Store. Once XCode is downloaded and up to date, open it and follow any instructions. You should now have the apple commandline tools installed. **Make sure you open Xcode. You need to accept Apple's terms and conditions before doing anytihng else**
 
 Most OS level programs are written in C or C++. These programs must be compiled and interpreted by a C-level compiler. The most common compiler for [POSIX](http://en.wikipedia.org/wiki/POSIX) systems is [GCC](http://en.wikipedia.org/wiki/GNU_Compiler_Collection), or the GNU Compiler Collection.
 
