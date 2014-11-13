@@ -26,19 +26,26 @@ We're going to spend more time on this and in more depth when the semester begin
 
 Make sure you are using OSX 10.10 Yosemite. To check, click on the  in the menu bar and select "About This Mac" The version should be 10.10 or greater. If your version of OSX is below 10.10, update your Mac through the Mac App Store.
 
-### XCode / Command Line Tools / GCC
+### Xcode / Command Line Tools / GCC
 
-Download XCode from the Mac App Store. Once XCode is downloaded, open it and follow any instructions. You should now have the apple commandline tools installed.
+Download Xcode from the Mac App Store. If you already have Xcode installed, make sure there are no updates available in the Mac App Store. Once XCode is downloaded and up to date, open it and follow any instructions. You should now have the apple commandline tools installed. **Make sure you open Xcode. You need to accept apples terms and conditions before doing anytihng else**
 
 Most OS level programs are written in C or C++. These programs must be compiled and interpreted by a C-level compiler. The most common compiler for [POSIX](http://en.wikipedia.org/wiki/POSIX) systems is [GCC](http://en.wikipedia.org/wiki/GNU_Compiler_Collection), or the GNU Compiler Collection.
 
 To test and see if you installed command line tools correctly, type `gcc` into terminal.
 
-If you see output like this you installed it correctly.
+If you see output like this: 
 
- ```
+```bash
 clang: error: no input files
 ```
+you installed it correctly.
+
+If you see output like this:
+```bash
+Agreeing to the Xcode/iOS licence requires admin privileges, please re-run as root via sudo.
+```
+You probably need to open Xcode and accept the licence terms from Apple. 
 
 ### Homebrew
 
