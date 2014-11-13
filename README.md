@@ -8,9 +8,7 @@ You'll find a few different types of assignments here in Ironboard in the prewor
 
 ### Accounts
 
-To complete these lessons, you will need [Treehouse](http://teamtreehouse.com/) and [CodeSchool](http://www.codeschool.com/enrollments/dnFtaXFMbXROSVVqT3N1bngwWnBRUjhGc2k1Z1dEOW52cFJvZEMzRUZvRT0tLWpvUElMODBvdFhiZlA4MjE2Mlc2c1E9PQ==) accounts. 
-
-We will provide you with an account to treehouse and codeschool, feel free to use your own to get started, but we cover those costs for the duration of the prework and semester.
+To complete these lessons, you will need [Treehouse](http://teamtreehouse.com/) and [CodeSchool](http://www.codeschool.com/) accounts.
 
 Sign up for [Github](https://github.com/) as well, which is free. To make our lives easier, be sure to have your name on your account. Go to Settings, and in your Public Profile, add your name.
 
