@@ -8,7 +8,7 @@ You'll find a few different types of assignments here in Ironboard in the prewor
 
 ### Accounts
 
-To complete these lessons, you will need [Treehouse](http://teamtreehouse.com/) and [CodeSchool](http://www.codeschool.com/) accounts.
+To complete some of these lessons, primarily bonus resources, you will need [Treehouse](http://teamtreehouse.com/) and [CodeSchool](http://www.codeschool.com/) accounts. Both have free trials. 
 
 Sign up for [Github](https://github.com/) as well, which is free. To make our lives easier, be sure to have your name on your account. Go to Settings, and in your Public Profile, add your name.
 
