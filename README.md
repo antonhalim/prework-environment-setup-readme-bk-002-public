@@ -75,7 +75,7 @@ Once the download is complete, you'll want to open a new terminal tab, and reent
 
 ### RVM
 
-Next comes setting up our ruby version manager, which will handle ruby versions and gems, which are packages of code we can use in our programs. OS X ships with an old version of ruby so we want a more recent one. Watch this quick [screencast](http://screencasts.org/episodes/how-to-use-rvm) on RVM, then install [RVM](http://rvm.io/) by typing this into your Terminal:
+Next comes setting up our ruby version manager, which will handle ruby versions and gems, which are packages of code we can use in our programs. OS X ships with an old version of ruby so we want a more recent one. Install [RVM](http://rvm.io/) by typing this into your Terminal:
 
 `\curl -L https://get.rvm.io | bash -s stable --ruby=2.1.4`
 
