@@ -50,7 +50,7 @@ You probably need to open Xcode and accept the licence terms from Apple.
 [Homebrew](http://brew.sh/.) is an awesome package manager, and makes downloading lots of software really easy. Download Homebrew by entering:
 
 ```
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Once downloading is complete, you'll want to enter `brew doctor` to make sure you don't have any conflicts. If there are some warnings, that's okay.
