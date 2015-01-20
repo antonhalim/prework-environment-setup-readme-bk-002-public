@@ -106,3 +106,7 @@ Normally when we run our tests, we would type `rspec`, but to run the tests for 
 Sublime Text 3 is our favorite text editor for writing code. You can download it [here](http://www.sublimetext.com/3). You want to make sure you select the OSX version. You'll want to make sure that Sublime Text 3 is in the Applications directory on your computer.
 
 One thing you should think about adding to your Sublime is [Package Control](https://sublime.wbond.net/installation). Follow the instructions in the link to install the Package Control. You can then download packages like [HTML snippets](https://sublime.wbond.net/packages/HTML%20Snippets), which allows you to autocomplete HTML tags as you type them. Follow [these instructions](http://www.granneman.com/webdev/editors/sublime-text/packages/how-to-install-and-use-package-control/) on how to install sublime packages.
+
+### Atom
+
+Atom is Github's implementation of a text editor for writing code. You can download it [here](https://atom.io/). It's another option that you can use - everyone has their own preferences in terms of their default text editor.
