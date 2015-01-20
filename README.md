@@ -77,9 +77,11 @@ Once the download is complete, you'll want to open a new terminal tab, and reent
 
 Next comes setting up our ruby version manager, which will handle ruby versions and gems, which are packages of code we can use in our programs. OS X ships with an old version of ruby so we want a more recent one. Install [RVM](http://rvm.io/) by typing this into your Terminal:
 
-`\curl -L https://get.rvm.io | bash -s stable --ruby=2.1.4`
+`\curl -L https://get.rvm.io | bash -s stable --ruby`
 
-That will install the latest stable version of RVM along with the latest stable version of ruby 2.1.4. Then type `rvm use 2.1.4 --default` to make that your default ruby. Open a new tab and `try ruby -v` and see if it matches the installed version of ruby. You can install another version of ruby with `rvm install 2.1.3` and see all installable rubies with `rvm list known`.
+That will install the latest stable version of RVM along with the latest stable version of Ruby. Then type `rvm use ruby --default` to make that your default ruby. Open a new tab and `try ruby -v` and see if it matches the installed version of ruby. 
+
+You can install another version of ruby with `rvm install 2.1.3` and see all installable rubies with `rvm list known`.
 
 ### The Ironboard Gem
 
